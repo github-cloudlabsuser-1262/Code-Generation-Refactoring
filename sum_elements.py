@@ -1,4 +1,3 @@
-#A poorly written example of a program in Python. 
 """
 This program prompts the user for the number of elements to sum, takes those integers as input, and handles some basic error cases.
 """
