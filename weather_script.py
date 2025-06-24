@@ -1,7 +1,7 @@
 import requests
 
 API_KEY = "9c18ec09e647900bf5a7ee3f9d462ba1"  # Replace with your OpenWeatherMap API key
-CITY = "London"
+CITY = "New York"  # Replace with your desired city
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 
 response = requests.get(URL)
